@@ -12,7 +12,7 @@ let config =  {
   "database": process.env.DB_NAME,
   "host": process.env.DB_HOST,
   "dialect": "postgres",
-  timezone: '+08:00'
+  // timezone: '+08:00'
 };
 
 let sequelize = new Sequelize(config);
