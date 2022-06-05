@@ -7,10 +7,10 @@ const basename = path.basename(__filename);
 const db = {};
 
 let config =  {
-  "username": process.env.DB_username,
-  "password": process.env.DB_password,
-  "database": process.env.DB_database,
-  "host": process.env.DB_host,
+  "username": process.env.DB_USERNAME,
+  "password": process.env.DB_PASSWORD,
+  "database": process.env.DB_NAME,
+  "host": process.env.DB_HOST,
   "dialect": "postgres",
   timezone: '+08:00'
 };
